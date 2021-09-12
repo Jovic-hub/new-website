@@ -118,7 +118,7 @@ const Portfolio =({home})=>{
                           <a href="#" class="block mt-1 text-lg text-center leading-tight font-bold text-black hover:underline dark:text-white">jovic.dev</a>
                           <p class="mt-2 dark:text-white">My website, made using ReactJS.</p>
                           <center>
-                            <a href="https://github.com/Jovic-hub/Jovic-hub.github.io" target="_blank"><img class="h-10 w-10 inline" src={(isDark ? github_dark : github)}/></a>   
+                            <a href="https://github.com/Jovic-hub/new-website" target="_blank"><img class="h-10 w-10 inline" src={(isDark ? github_dark : github)}/></a>   
                           </center> 
                           <p className="text-left dark:text-white">Learning Outcomes&rarr; ReactJS, HTML+CSS</p>     
                         </div>
