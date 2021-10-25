@@ -61,7 +61,7 @@
     &.colour {
        .toggle-label {
           // @apply bg-red-300;
-          background-color: #feb2b2;
+          background-color: #3b82f6;
        }
  
        .toggle-checkbox:checked + .toggle-label {
@@ -71,3 +71,28 @@
     }
  }
  
+ @media screen and (max-width: 425px){
+   .header-wrapper{
+      align-items: center;
+      display: flex;
+  }
+  .navbar{
+     height: 70px;
+     justify-content: center;
+     padding-top: 8px;
+  }
+  .float{
+      position:fixed;
+      width:60px;
+      height:60px;
+      bottom:40px;
+      right:60px;
+      color:#FFF;
+      text-align:center;
+   }
+
+   .my-float{
+      font-size:24px;
+      margin-top:18px;
+   }  
+}

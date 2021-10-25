@@ -1,23 +1,14 @@
-import React, {useState, useEffect} from 'react';
+import React, {} from 'react';
 import './App.css';
 import Home from './Home'
-import Portfolio from'./Portfolio'
+
+require('dotenv').config();
 
 function App() {
-  const [step, setStep] = useState(1);
-
-  const PortfolioHandler=()=>{
-    setStep(2);
-  }
-
-  const HomeHandler=()=>{
-    setStep(1);
-  }
 
   return (
     <div>
-      {step === 1 && <Home port={PortfolioHandler}/>}
-      {step === 2 && <Portfolio home={HomeHandler}/>}
+      <Home/>
     </div>
     
   );
