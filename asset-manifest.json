@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6a445531.chunk.css",
-    "main.js": "/static/js/main.ed9281d2.chunk.js",
-    "main.js.map": "/static/js/main.ed9281d2.chunk.js.map",
+    "main.js": "/static/js/main.8d071146.chunk.js",
+    "main.js.map": "/static/js/main.8d071146.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9b800203.js",
     "runtime-main.js.map": "/static/js/runtime-main.9b800203.js.map",
     "static/js/2.da480f3d.chunk.js": "/static/js/2.da480f3d.chunk.js",
@@ -15,8 +15,8 @@
     "static/media/cplus.png": "/static/media/cplus.52cac406.png",
     "static/media/heroku.png": "/static/media/heroku.761860d9.png",
     "static/media/jorge.png": "/static/media/jorge.b8543c6b.png",
+    "static/media/jovic-photo.jpg": "/static/media/jovic-photo.4588fd73.jpg",
     "static/media/jovic.png": "/static/media/jovic.888ac4a3.png",
-    "static/media/jovic.jfif": "/static/media/jovic.dcf0b3a1.jfif",
     "static/media/js.png": "/static/media/js.6ffe12db.png",
     "static/media/mail.png": "/static/media/mail.a2e47e52.png",
     "static/media/mongodb.png": "/static/media/mongodb.762ed694.png",
@@ -35,6 +35,6 @@
     "static/js/runtime-main.9b800203.js",
     "static/js/2.da480f3d.chunk.js",
     "static/css/main.6a445531.chunk.css",
-    "static/js/main.ed9281d2.chunk.js"
+    "static/js/main.8d071146.chunk.js"
   ]
 }
