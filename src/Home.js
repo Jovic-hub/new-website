@@ -1,6 +1,6 @@
 import React, {useState}from 'react';
 import './switch.scss'
-import jovic from './images/jovic.jfif'
+import jovic from './images/jovic-photo.jpg'
 import github from './images/github.png'
 import github_dark from './images/github_dark.png'
 import mail from './images/mail.png'
