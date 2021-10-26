@@ -33,7 +33,7 @@ const Email = () => {
                                     Subject
                                 </label>
                                 <input
-                                    className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 dark:text-white border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                                    className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                                     name="subject"
                                     type="text"
                                     placeholder="Subject"
@@ -45,7 +45,7 @@ const Email = () => {
                                     Name
                                 </label>
                                 <input
-                                    className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline dark:text-white"
+                                    className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
                                     name="from_name"
                                     type="text"
                                     placeholder="First Name"
@@ -57,7 +57,7 @@ const Email = () => {
 									Email
 								</label>
 								<input
-									className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 dark:text-white border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+									className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
 									name="from_email"
 									type="email"
 									placeholder="Email"
@@ -69,7 +69,7 @@ const Email = () => {
 									Message
 								</label>
 								<textarea
-									className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 dark:text-white border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+									className="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
 									name="message"
 									type="text"
 									placeholder="Message"
