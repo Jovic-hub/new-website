@@ -41,3 +41,13 @@
 *{
   scroll-behavior: smooth;
 }
+
+.bullet{
+  margin: 0;
+}
+
+.line{
+  border: 5px solid white;
+  size: 3;
+  border-radius: 5px;
+}

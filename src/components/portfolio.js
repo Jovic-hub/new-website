@@ -1,32 +1,40 @@
 import React from 'react';
 import data from '../data/portfolio.json';
-import github from '../images/github.png'
 
 const Portfolio = () => {
     let image = (img) => require(`../images/${img}`).default;
     const portfolio = data.data.map((item,pos) =>
         <div className="py-6 font-inter" key={pos}>
-            <div className="relative py-2">
-                <div className="relative max-w-full mx-auto bg-white dark:bg-gray-500 rounded-xl shadow-md overflow-hidden md:max-w-3xl">
-                    <div className="md:flex">
-                        <div className="md:flex-shrink-0">
-                            <img className="h-32 w-full object-cover md:h-full md:w-64" alt="" src={image(item.image)}/>
-                        </div>
-                        <div className="p-4">
-                            <b className="mt-1 text-lg text-center leading-tight font-bold text-black dark:text-white">{item.title} 
-                            <a href={item.github_link} rel="noopener noreferrer" target="_blank"><img className="ml-2 h-10 w-10 inline a" alt="" src={github}/></a></b>                                     
-                            <p className="mt-2 dark:text-white">{item.desc}</p>
-                            <p className="text-left dark:text-white">Learning Outcomes&rarr; {item.learning}</p>     
-                        </div>
-                    </div>
+            <div className='flex mx-12 lg:mx-96 items-center'>
+                <img className="h-full w-6 object-cover md:h-full md:w-8 lg:mx-2" alt="" src={image(item.pin)}/>
+                <img className="h-full w-12 object-cover md:h-full md:w-20 ml-4 lg:ml-8 rounded-xl" alt="" src={image(item.image)}/>
+                <p className="text-2xl lg:text-3xl font-bold text-left dark:text-white ml-4 lg:ml-8">
+                    {item.title}
+                </p>
+            </div>
+            <p className="lg:text-2xl text-left mx-12 lg:mx-96 pt-6 dark:text-white">
+                {item.desc}
+                <div>
+                    <br/>
+                    Main technologies: {item.main_tech.map((img)=>{
+                        return <img className="inline h-10 w-10 mx-1" alt="" src={image(img)}/>
+                    })}
                 </div>
+            </p>
+            <p className='text-1xl lg:text-3xl font-bold text-left mx-12 lg:mx-96 pt-6 dark:text-white'>
+                {item.date}
+            </p>    
+            <div className='pt-8'>
+                <hr className='line mx-12 lg:mx-96'/>
             </div>
         </div>
     )
-
-    
+ 
     return(
-        <div className="py-16">
+        <div className="py-24 text-center leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
+            <p className="text-3xl dark:text-white font-bold">
+            Experience:
+            </p>
             {portfolio}
         </div>
     );

@@ -6,16 +6,16 @@ import github_dark from './images/github_dark.png'
 import mail from './images/mail.png'
 import linkedin from './images/linkedin.png'
 import linkedin_dark from './images/linkedin_dark.png'
-import js from './images/js.png'
-import c from './images/c++.png'
-import react from './images/react.png'
-import mysql from './images/mysql.png'
-import ruby from './images/ruby.png'
-import mongo from './images/mongodb.png'
 import logo from './images/LOGO.svg'
 import './switch.scss'
 import Portfolio from './components/portfolio'
 import Email from './components/contact'
+import js from './images/js.png'
+import react from './images/react.png'
+import next from './images/next.png'
+import graphql from './images/graphql-icon.png'
+import jest from './images/jest.png'
+import typescript from './images/typescript.png'
 
 let Switch =({dark, onToggle}) =>{
     return(
@@ -49,8 +49,8 @@ const Home =()=>{
               <div className="header-wrapper pt-2 pr-12">
                 <img src={logo} alt="" className="logo" onClick={() => window.location.replace("/#home")}/>
                 <div className="menu-items">
+                    <a className="font-bold text-xl pl-4 inline dark:text-white card" href="/#port" onClick={() => window.location.replace("/#port")}>Experience</a>  
                     <a className="font-bold text-xl pl-4 inline dark:text-white card" href="/#email" onClick={() => window.location.replace("/#email")}>Contact</a>  
-                    <a className="font-bold text-xl pl-4 inline dark:text-white card" href="/#port" onClick={() => window.location.replace("/#port")}>Portfolio</a>  
                 </div>
                 <b className="float">
                   <i className="fa fa-envelope my-float"><Switch dark={isDark} onToggle={() => toggleIsDark(isDark)}/></i>
@@ -70,7 +70,7 @@ const Home =()=>{
                         <div className="py-8 text-center leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
                           <p className="dark:text-white">I moved from Brazil to Canada to elevate my studies and my opportunities, with the objective of giving the best of myself in this seemingly wild 
                             dream of becoming an international programmer so early in my life.</p>
-                          <p className="text-center text-blue-500 dark:text-green-200">Joao Victor Fernandes, Web Developer.</p>
+                          <p className="text-center text-blue-500 dark:text-green-200">Joao Victor Fernandes, Software Engineer.</p>
                         </div>
                         <div className="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7 dark:text-white">
                           <p>Want to talk with me?</p>
@@ -83,18 +83,23 @@ const Home =()=>{
             </div>
               <div className="pt-16">
                 <div className="py-8 text-center leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                  <p className="text-3xl dark:text-white">
+                  <p className="text-3xl dark:text-white font-bold">
                     My favorite technologies:
                   </p>
-                  <img className="h-28 w-28 inline" alt="" src={js}/><img className="h-28 w-28 inline" alt="" src={c}/><img className="h-28 w-28 inline" alt="" src={react}/><img className="h-28 w-28 inline" alt="" src={mysql}/><img className="h-28 w-28 inline" alt="" src={ruby}/> <img className="h-28 w-28 inline" alt="" src={mongo}/>
+                  <img className="h-28 w-28 inline" alt="" src={js}/>
+                  <img className="h-28 w-28 inline" alt="" src={react}/>
+                  <img className="h-28 w-28 inline" alt="" src={next}/>
+                  <img className="h-28 w-28 inline" alt="" src={graphql}/>
+                  <img className="h-28 w-28 inline" alt="" src={jest}/> 
+                  <img className="h-28 w-28 inline" alt="" src={typescript}/>
                 </div>
               </div>
             </section>   
-            <section id="email">
-              <Email/>  
-            </section>  
             <section id="port">
               <Portfolio/>
+            </section>  
+            <section id="email">
+              <Email/>  
             </section>  
             </div>
         </div>

@@ -1,68 +1,28 @@
 {
     "data": [
       {
-        "title": "Spacestagram",
-        "image": "space.png",
-        "desc": "Using NASA API, I developed a Instagram from Space with ReactJS.",
-        "github_link": "https://github.com/Jovic-hub/Spacestagram",
-        "heroku_link" : "https://spacestagram-joao.herokuapp.com/",
-        "learning" : "ReactJS, HTML+CSS."
+        "title": "Software Engineer - Creditas",
+        "image": "creditas.svg",
+        "pin": "creditas-pin.png",
+        "desc": "At Creditas, I am working as a Sofware engineer, developing and maintaining the front-end of the application. Writing clean and efficient code.",
+        "main_tech": ["react.png", "next.png", "graphql-icon.png", "typescript.png", "jest.png", "cypress.svg"],
+        "date": "Nov 2021 - Present"
       },
       {
-        "title": "Quiz app using ReactJS",
-        "image": "quiz.jpg",
-        "desc": "Using ReactJS, I developed a complete Quiz App.",
-        "github_link": "https://github.com/Jovic-hub/Quiz-App-React",
-        "heroku_link" : "https://quiz-app-test-jovic.herokuapp.com/",
-        "learning" : "ReactJS, HTML+CSS."
+        "title": "Front-end Engineer - Impulso",
+        "image": "impulso.png",
+        "pin": "impulso-pin.png",
+        "desc": "At Impulso, I work as a front-end engineer, being available to work on projects with a team of developers and designers.",
+        "main_tech": ["react.png", "next.png", "gatsby.svg" ,"js.png"],
+        "date": "Oct 2021 - Present"
       },
       {
-        "title": "App Airbnb style.",
-        "image": "room.png",
-        "desc": "I developed a Airbnb with authentication system, booking system and responsive design.",
-        "github_link": "https://github.com/Jovic-hub/Airbnb-App-Express",
-        "heroku_link" : "https://assignment2-web322-joao.herokuapp.com/",
-        "learning" : "Express, MongoDB, CRUD, HTML + CSS."
-      },
-      {
-        "title": "jovic.dev",
-        "image": "jovic.png",
-        "desc": "My website, made using ReactJS.",
-        "github_link": "https://github.com/Jovic-hub/new-website",
-        "heroku_link" : "",
-        "learning" : "ReactJS, HTML+CSS."
-      },
-      {
-        "title": "Image Repository",
-        "image": "rails.png",
-        "desc": "I developed this Image Repository using Ruby on Rails and Amazon S3.",
-        "github_link": "https://github.com/Jovic-hub/Image-repository-rails",
-        "heroku_link" : "",
-        "learning" : "Ruby on Rails, Amazon S3, HTML + CSS."
-      },
-      {
-        "title": "Object Oriented Programming",
-        "image": "oriented.jpg",
-        "desc": "All that I developed during the OOP244, the object-oriented programming course using C++.",
-        "github_link": "https://github.com/Jovic-hub/Object-oriented-programming",
-        "heroku_link" : "",
-        "learning" : "C++, OOP, Software Development."
-      },
-      {
-        "title": "Advanced Object Oriented Programming",
-        "image": "cplus.png",
-        "desc": "All that I developed during the OOP345, the advanced object-oriented programming course using C++.",
-        "github_link": "https://github.com/Jovic-hub/Advanced-Object-Oriented-Programming",
-        "heroku_link" : "",
-        "learning" : "C++, OOP, Software Development."
-      },
-      {
-        "title": "jorgefernandes.adv.br",
-        "image": "jorge.png",
-        "desc": "Peronsal Website developed for the Lawyer Jorge Fernandes.",
-        "github_link": "https://github.com/Jovic-hub/jorgefernandes.adv.br",
-        "heroku_link" : "",
-        "learning" : "HTML + CSS."
+        "title": "Student Tutor - Seneca College",
+        "image": "seneca.png",
+        "pin": "seneca-pin.png",
+        "desc": "During my time at Seneca, I was a student mentor, helping students with their studies and projects, mainly with C++ and basic web development tools.",
+        "main_tech": ["js.png", "html.png", "css.png", "cplus.png"],
+        "date": "Aug 2021 - Jan 2022 · 6 mos"
       }
     ]
   }
