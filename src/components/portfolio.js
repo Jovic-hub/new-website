@@ -5,7 +5,7 @@ const Portfolio = () => {
     let image = (img) => require(`../images/${img}`).default;
     const portfolio = data.data.map((item,pos) =>
         <div className="py-6 font-inter" key={pos}>
-            <div className='flex mx-12 lg:mx-96 items-center'>
+            <div className='flex mx-6 lg:mx-96 items-center'>
                 <img className="h-full w-6 object-cover md:h-full md:w-8 lg:mx-2" alt="" src={image(item.pin)}/>
                 <img className="h-full w-12 object-cover md:h-full md:w-20 ml-4 lg:ml-8 rounded-xl" alt="" src={image(item.image)}/>
                 <p className="text-2xl lg:text-3xl font-bold text-left dark:text-white ml-4 lg:ml-8">
